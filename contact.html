@@ -56,6 +56,76 @@
     <header>
       <div class="container mt-md-6 ms-md-7"></div>
     </header>
+
+    <!-- Contact Form -->
+    <section class="contact bg-dark pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 offset-2">
+            <form action="https://formspree.io/f/mleyqjpb" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Name"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="Email Address"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control form-control-lg"
+                  name="message"
+                  rows="6"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary text-white mt-2">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="border-secondary bg-dark text-white pt-6 d-none d-md-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-primary">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="project.html" class="nav-link link-primary"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-primary">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p class="text-center d-none d-md-block">
+              Copyright &copy; Vincenzo Nicassio 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
