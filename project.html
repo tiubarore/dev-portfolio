@@ -15,38 +15,39 @@
   <body class="bg-dark">
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-body-light">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Vincenzo Nicassio </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="align-content-center m-auto">
-            <a
-              href="index.html"
-              class="navbar-brand fw-bold text-light"
-              href="#"
-              >VincenzoNicassio.dev</a
-            >
-          </div>
-
-          <a class="btn btn-dark text-white">Projects</a>
-
-          <a
-            href="contact.html"
-            class="btn btn-light text-dark fw-semibold ms-2"
-            type="submit"
-          >
-            Contact
-          </a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" aria-current="page" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="project.html" aria-current="page" class="nav-link"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                aria-current="page"
+                class="btn btn-primary mx-2"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -54,11 +55,11 @@
     <!-- Hero -->
 
     <header>
-      <div class="container mt-6">
-        <div class="row d-flex justify-content-center align-content-center">
+      <div class="container mt-md-6 mt-3 text-center">
+        <div class="row">
           <div class="col-md-6 offset-md-3">
             <div class="text-container">
-              <h1 class="fs-2 text-light mb-6">Projects</h1>
+              <h1 class="fs-2 text-light mb-5">Projects</h1>
             </div>
           </div>
         </div>
@@ -136,28 +137,30 @@
 
     <!-- Footer -->
 
-    <footer class="border-secondary bg-dark text-white pt-6 d-none d-md-block">
+    <footer class="bg-dark text-white mt-6">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-8">
             <ul class="nav">
               <li class="nav-item">
-                <a href="index.html" class="nav-link link-primary">Home</a>
+                <a href="index.html" class="nav-link link-light">Home</a>
               </li>
               <li class="nav-item">
-                <a href="project.html" class="nav-link link-primary"
-                  >Projects</a
-                >
+                <a href="project.html" class="nav-link link-light">Projects</a>
               </li>
+
               <li class="nav-item">
-                <a href="contact.html" class="nav-link link-primary">Contact</a>
+                <a href="contact.html" class="nav-link link-light">Contact</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-6">
-            <p class="text-center d-none d-md-block">
-              Copyright &copy; Vincenzo Nicassio 2023
-            </p>
+          <div class="col-4 text-end">
+            <a href="https://instagram.com/underdeneedle" target="_blank"
+              ><i class="bi bi-instagram fa-2x text-light"></i
+            ></a>
+            <a href="https://github.com/tiubarore" target="_blank"
+              ><i class="bi bi-github fa-2x ms-2 text-light"></i
+            ></a>
           </div>
         </div>
       </div>
