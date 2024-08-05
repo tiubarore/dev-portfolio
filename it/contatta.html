@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.svg" />
+    <link rel="stylesheet" href="/css/fontawesome.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <title>Vincenzo Nicassio Contatti</title>
+  </head>
+  <body class="bg-dark">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Vincenzo Nicassio </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="../it/index.html" aria-current="page" class="nav-link"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../it/progetti.html" aria-current="page" class="nav-link"
+                >Progetti</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="../it/contatta.html"
+                aria-current="page"
+                class="btn btn-primary mx-md-2 mt-2 mt-md-0 fw-bold"
+                >Contatta</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <header>
+      <div class="container mt-5">
+        <h1 class="text-center text-primary text-light mb-5">
+          Contattami per qualunque informazione!
+        </h1>
+      </div>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="contact bg-dark pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-10 offset-1 offset-md-2">
+            <form action="https://formspree.io/f/mleyqjpb" method="POST">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Nome"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="Indirizzo Email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control form-control-lg"
+                  name="message"
+                  rows="6"
+                  placeholder="Messaggio"
+                ></textarea>
+              </div>
+              <div class="d-grid">
+                <button
+                  type="submit"
+                  class="btn btn-primary text-white mt-2 fw-bold"
+                >
+                  Invio
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white mt-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="../it/index.html" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="../it/progetti.html" class="nav-link link-light"
+                  >Progetti</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="../it/contatta.html" class="nav-link link-light"
+                  >Contatta</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-4 text-end">
+            <a href="https://github.com/tiubarore" target="_blank"
+              ><i class="bi bi-github fa-2x ms-2 text-light"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
