@@ -5,3 +5,21 @@
   border-radius: 12px;
   cursor: pointer;
 }
+
+#light,
+#dark {
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+/* definition */
+@font-face {
+  font-family: "archia";
+  src: url("../archia.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* use */
+.archia {
+  font-family: "archia";
+}
